@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <style>
+            body {
+                padding-top: 90px;
+                padding-bottom: 40px;
+            }
+            .hero-unit {
+                background:url(/img/hero-units/hostname.jpg);
+            }
+        </style>
+        <link rel="stylesheet" href="/css/bootstrap-responsive.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/bootstrap-wysihtml5.css">
+		<link rel="stylesheet" href="/css/summernote.css"> 
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" />
+        <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+
+        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="/">[SITE NAME]</a>
+                    <div class="nav-collapse collapse">
+						[NAV]
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            [CONTENT]
+
+            <hr>
+
+            <footer>
+                <p>&copy; [CHURCH NAME] 2013</p>
+                <p>Powered by <a href="#">Church News</a></p>
+            </footer>
+
+        </div> <!-- /container -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+        <script src="/js/vendor/bootstrap.min.js"></script>
+        <script src="/js/wysihtml5-0.3.0.js"></script>
+        <script src="/js/bootstrap-wysihtml5.js"></script>
+
+        <script src="/js/plugins.js"></script>
+        <script src="/js/main.js"></script>
+		<script type="text/javascript" src="/js/summernote.min.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.wysiwyg').summernote({
+					focus: false,
+					tabsize: 4,
+					toolbar: [
+						['style', ['style']], //no style button
+						['style', ['bold', 'italic', 'underline', 'clear']],
+						['para', ['ul', 'ol', 'paragraph']],
+						['insert', ['picture', 'link']],
+						['table', ['table']]
+					]
+				});
+			});
+		</script>
+
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>

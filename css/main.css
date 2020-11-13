@@ -1,0 +1,19 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.hero-unit {
+	color:#FFF;
+}
+#social-icons td {
+	padding:5px;
+}
+h2 {
+	font-size:20pt;
+}
+legend {
+	font-size:16pt;
+}
+.note-editable {background-color:white}
